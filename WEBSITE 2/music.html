@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>horizon.id</title>
+    <style>
+        body {
+            background-color: #0e0e0e;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #111;
+            border-bottom: 2px solid #b40000;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            color: white;
+            margin: 0;
+            letter-spacing: 1px;
+        }
+
+        header h1 span {
+            color: #b40000;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #b40000;
+        }
+
+        /* Bagian player */
+        .player {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(180deg, #0e0e0e 0%, #1a0000 100%);
+        }
+
+        .player h2 {
+            font-size: 30px;
+            letter-spacing: 2px;
+            margin-bottom: 40px;
+        }
+
+        /* Container lagu-lagu */
+        .music-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .music-box {
+            background-color: #1a1a1a;
+            border: 2px solid #b40000;
+            border-radius: 10px;
+            padding: 25px;
+            width: 280px;
+            box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .music-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 0px 25px rgba(255, 0, 0, 0.4);
+        }
+
+        .music-box img {
+            width: 100%;
+            border-radius: 10px;
+            border: 2px solid #b40000;
+            margin-bottom: 15px;
+        }
+
+        .music-box h3 {
+            color: #b40000;
+            margin: 10px 0;
+        }
+
+        .music-box p {
+            font-size: 13px;
+            color: #ccc;
+            margin-bottom: 10px;
+        }
+
+        audio {
+            width: 100%;
+            outline: none;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #111;
+            padding: 15px;
+            border-top: 2px solid #b40000;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><span>BRING ME</span> THE HORIZON</h1>
+
+    <section class="player">
+        <h2>MUSIC PLAYER</h2>
+
+        <div class="music-container">
+
+            <!-- Lagu 1 -->
+            <div class="music-box">
+                <img src="bring me the horizon - sempiternal.jpeg" alt="Album Sempiternal">
+                <h3>Shadow Moses</h3>
+                <p>Bring Me The Horizon - Sempiternal (2013)</p>
+                <audio controls>
+                    <source src="Bring Me The Horizon - Shadow Moses.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <!-- Lagu 2 -->
+            <div class="music-box">
+                <img src="amo.jpeg" alt="Album amo">
+                <h3>MANTRA</h3>
+                <p>Bring Me The Horizon - MANTRA (2019)</p>
+                <audio controls>
+                    <source src="Bring Me The Horizon - MANTRA (Official Audio).mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <!-- Lagu 3 -->
+            <div class="music-box">
+                <img src="post human.jpeg" alt="Album Post Human">
+                <h3>Kingslayer</h3>
+                <p>Bring Me The Horizon - Post Human (2020)</p>
+                <audio controls>
+                    <source src="Bring Me The Horizon - Kingslayer (Lyric Video) ft. BABYMETAL.mp3" type="audio/mp3">
+                </audio>
+            </div>
+
+            <!-- Lagu 4 -->
+            <div class="music-box">
+                <img src="that the spirit.jpeg" alt="Album That's The Spirit">
+                <h3>Happy Song</h3>
+                <p>Bring Me The Horizon - That's The Spirit (2015)</p>
+                <audio controls>
+                    <source src="Bring Me The Horizon - Happy Song (Official Audio).mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+    </section>
+        
+        <nav>
+            <a href="BMTH.html">BACK TO HOME</a>
+        </nav>
+    <footer>
+        <p>© 2025 Bring Me The Horizon Fan Page</p>
+    </footer>
+</body>
+</html>
